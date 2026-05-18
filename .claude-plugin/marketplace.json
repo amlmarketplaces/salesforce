@@ -1,0 +1,51 @@
+{
+  "name": "salesforce",
+  "owner": {
+    "name": "Salesforce"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/salesforce-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "salesforce-bulk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-bulk.git"
+      }
+    },
+    {
+      "name": "salesforce-marketing-cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-marketing-cloud.git"
+      }
+    },
+    {
+      "name": "salesforce-metadata",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-metadata.git"
+      }
+    },
+    {
+      "name": "salesforce-sobjects",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-sobjects.git"
+      }
+    },
+    {
+      "name": "salesforce-soql",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-soql.git"
+      }
+    },
+    {
+      "name": "salesforce-streaming",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-streaming.git"
+      }
+    }
+  ]
+}
